@@ -27,84 +27,87 @@
             </div>
         </nav>
     </header>
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-text">
-                <h1>Hi, I'm a Front-End <br> Developer</h1>
-                <p>design and build clean, responsive websites with a focus on
-                    user experience and modern web technologies. Welcome to
-                    my portfolio!</p>
-                <a  href="#projects" > View My Work </a>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Hi, I'm a Front-End <br> Developer</h1>
+                    <p>design and build clean, responsive websites with a focus on
+                        user experience and modern web technologies. Welcome to
+                        my portfolio!</p>
+                    <a href="#projects"> View My Work </a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/imgi_10_p1.jpg" alt="Front-End Developer">
+                </div>
             </div>
-            <div class="hero-image">
-                <img src="images/imgi_10_p1.jpg" alt="Front-End Developer">
+        </section>
+        <section id="about" class="about">
+            <h2 class="about-title">About Me</h2>
+            <div class="line"></div>
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="images/imgi_1_p4.jpg" alt="">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm a passionate front-end developer and computer science student
+                        who loves turning ideas into interactive, accessible web experiences.
+                        I enjoy working with HTML, CSS, and JavaScript to create clean,
+                        user-friendly interfaces.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring open-source projects,
+                        attending tech meetups, or reading about the latest in web development.
+                    </p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="about" class="about">
-        <h2 class="about-title">About Me</h2>
-        <div class="line"></div>
-        <div class="about-container">
-            <div class="about-img">
-                <img src="images/imgi_1_p4.jpg" alt="">
+        </section>
+
+
+        <section id="skills" class="skills">
+            <h2 class="skills-title">Skills</h2>
+            <div class="line"></div>
+            <div class="skills-container" id="skillsContainer">
+               
             </div>
-            <div class="about-text">
-                <p>
-                    I'm a passionate front-end developer and computer science student
-                    who loves turning ideas into interactive, accessible web experiences.
-                    I enjoy working with HTML, CSS, and JavaScript to create clean,
-                    user-friendly interfaces.
-                </p>
-                <p>
-                    When I'm not coding, you can find me exploring open-source projects,
-                    attending tech meetups, or reading about the latest in web development.
-                </p>
+        </section>
+        
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">×</span>
+                        <i id="modalIcon" class="fa-brands fa-html5"></i>
+                        <h3 id="modalTitle"></h3>
+                        <p id="modalDesc"></p>
+                    </div>
+                </div>
+
+        <section id="projects" class="projects">
+            <h2 class="projects-title">Projects</h2>
+            <div class="line"></div>
+            <div class="projects-container" id="projectsContainer">
+             
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section id="skills" class="skills">
-        <h2 class="skills-title">Skills</h2>
-        <div class="line"></div>
-        <div class="skills-container" id="skillsContainer">
-            <!-- JS سيضيف هنا الـ Skills -->
-        </div>
-    </section>
+      
 
-    <section id="projects" class="projects">
-        <h2 class="projects-title">Projects</h2>
-        <div class="line"></div>
-        <div class="projects-container" id="projectsContainer">
-            <!-- JS سيضيف هنا الـ Projects -->
-        </div>
-    </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Message"></textarea>
 
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">×</span>
-            <i id="modalIcon" class="fa-brands fa-html5"></i>
-            <h3 id="modalTitle"></h3>
-            <p id="modalDesc"></p>
-        </div>
-    </div>
+                <p id="error"></p>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
+    </main>
 
-    <!-- done -->
-
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <form id="contactForm">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea id="message" placeholder="Message"></textarea>
-
-            <p id="error"></p>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
     <footer>
         <p>© 2025 All Rights Reserved</p>
     </footer>
